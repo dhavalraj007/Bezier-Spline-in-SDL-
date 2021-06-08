@@ -208,6 +208,8 @@ int main(int argc, char* args[])
 				if (e.key.keysym.sym == SDLK_r)
 				{
 					controlPoints = defPoints;
+					currentPoints.clear();
+					t = 0;
 				}
 			}
 		}
